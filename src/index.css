@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --dark-color: #0f0f0f;
+  --primary-color: #23b5b5;
+  --secondary-color: #2a2a2a;
+  --primary-hover-color: rgba(35, 181, 181, 0.8);
+  --secondary-hover-color: rgba(42, 42, 42, 0.8);
+  --primary-active-color: rgba(35, 181, 181, 0.6);
+  --secondary-active-color: rgba(42, 42, 42, 0.6);
+}
+
+body {
+  background-color: var(--dark-color);
+}
