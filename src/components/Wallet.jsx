@@ -21,7 +21,7 @@ function Wallet({network, set}) {
   return (
     <div className='flex flex-col items-center justify-center'>
             <button className='bg-secondary hover:bg-secondary-hover active:bg-secondary-active rounded-2xl w-96 h-16 flex justify-start items-center'>
-                <img src="src/assets/solana_logo.png" alt="logo" className='w-10 inline-block mx-2'/>
+                <img src="/solana_logo.png" alt="logo" className='w-10 inline-block mx-2'/>
                 <span className='inline-block mx-2'>Solana</span>
             </button>
     </div>

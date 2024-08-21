@@ -5,7 +5,7 @@ import './App.css'
 import LandingPage from './components/wallet_creation/LandingPage'
 import NetworkSelect from './components/wallet_creation/NetworkSelect'
 import RecoveryPhrase from './components/wallet_creation/RecoveryPhrase'
-import BackArrow from './assets/svgs/BackArrow'
+import BackArrow from './components/BackArrow'
 import Wallet from './components/Wallet'
 import ImportPhrase from './components/wallet_creation/ImportPhrase'
 

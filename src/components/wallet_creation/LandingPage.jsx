@@ -4,7 +4,7 @@ function LandingPage({pages, gotoNextPage}) {
   return (
     <div className='h-full flex flex-col justify-evenly items-center font-mono'>
         <div className="flex flex-col items-center">
-            <img src="src\assets\wallet_logo.png" alt="logo" className='w-24 mb-7'/>
+            <img src="/wallet_logo.png" alt="logo" className='w-24 mb-7'/>
             <div className="text-slate-200 text-3xl mb-3">Welcome To Singh Crypto Wallet</div>
             <div className='text-slate-500 text-xl'>..lets get started..</div>
         </div>

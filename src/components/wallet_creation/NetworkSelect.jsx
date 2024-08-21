@@ -22,7 +22,7 @@ function NetworkSelect({setNetwork, gotoNextPage, nextPage, pages}) {
               setNetwork("solana");
               gotoNextPage(nextPage);
             }} className='bg-secondary hover:bg-secondary-hover active:bg-secondary-active rounded-2xl w-96 h-16 flex justify-start items-center'>
-                <img src="src/assets/solana_logo.png" alt="logo" className='w-10 inline-block mx-2'/>
+                <img src="/solana_logo.png" alt="logo" className='w-10 inline-block mx-2'/>
                 <span className='inline-block mx-2'>Solana</span>
             </button>
             <button onClick={()=>{
@@ -30,7 +30,7 @@ function NetworkSelect({setNetwork, gotoNextPage, nextPage, pages}) {
               gotoNextPage(nextPage);
             }}
             className='bg-secondary hover:bg-secondary-hover active:bg-secondary-active rounded-2xl w-96 h-16 flex justify-start items-center my-4'>
-                <img src="src/assets/ethereum_logo.webp" alt="logo" className='w-10 inline-block mx-2'/>
+                <img src="/ethereum_logo.webp" alt="logo" className='w-10 inline-block mx-2'/>
                 <span className='inline-block mx-2'>Ethereum</span>
             </button>
         </div>
